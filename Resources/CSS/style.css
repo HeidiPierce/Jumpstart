@@ -1,0 +1,47 @@
+/*Table of Contents
+1. Navigation Content.
+  a. Explore Jumpstart
+  b. Start a project
+  c. About Jumpstar
+2. Jumpstart your Startup
+3. Featured Project
+4. Projects
+5. Jumpstart's Good Idea Generator*/
+
+/*universal styling*/
+body {
+  background-color: white;
+  box-sizing: border-box;
+  font: 0.875rem 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/*header*/
+.nav a {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.navbar-brand a{
+  height: 10rem;
+}
+/*end*/
+
+
+/*jumbotron*/
+.jumbotron .container {
+  padding: 0;
+  width: 100%;
+}
+.jumbotron .row {
+  background-image: url("../../Resources/Images/jumbotron-bike.jpg");
+  height: 35.5rem;
+}
+.jumbotron h1 {
+  color: white;
+  font: 7.1rem Monoton;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
