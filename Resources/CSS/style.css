@@ -1,5 +1,5 @@
 /*Table of Contents
-1. Navigation Content.
+1. Navigation Content
   a. Explore Jumpstart
   b. Start a project
   c. About Jumpstar
@@ -13,35 +13,165 @@ body {
   background-color: white;
   box-sizing: border-box;
   font: 0.875rem 'Open Sans', sans-serif;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
-/*header*/
-.nav a {
-  font-size: 1.1rem;
+/*header Navigation Content*/
+nav {
+  z-index: 99;
+}
+nav a {
+  font-size: 1.5rem;
   font-weight: bold;
 }
-.navbar-brand a{
-  height: 10rem;
+.navbar-default .navbar-nav > .active > a {
+  background-color: inherit;
+  color: #399bd1;
 }
 /*end*/
 
 
-/*jumbotron*/
+/*jumbotron Jumpstart Your Startup*/
 .jumbotron .container {
+  height: 44rem;
   padding: 0;
   width: 100%;
 }
 .jumbotron .row {
   background-image: url("../../Resources/Images/jumbotron-bike.jpg");
-  height: 35.5rem;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 44rem;
+  line-height: 1.2;
+  margin-left: 0;
+  padding: 8rem 0 2rem;
+  width: 100%;
 }
 .jumbotron h1 {
-  color: white;
   font: 7.1rem Monoton;
+  margin-bottom: 0;
   text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+.jumbotron p {
+  font-size: 1.5rem;
+  max-width: 51.3rem;
+  margin: auto;
+}
+.jumbotron .relative-wrapper {
+  padding-top: 2rem;
+}
+a.btn.btn-primary.btn-lg.cta {
+  font-size: 1.5rem;
+  padding: 1.3rem 0;
+  width: 11.4rem;
+}
+/*end*/
+
+/*Featured Project section*/
+.container,
+.featured-project {
+  width: 85rem;
+  margin: 0 auto;
+}
+h2 {
+  color: #399bd1;
+  font-size: 1.9rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+.image-container {
+  margin-right: 0.9375rem;
+}
+.image-container img {
+  height: 20.375rem ;
+  opacity: 0.7;
+  margin-right: 0;
+  width: 100%;
+}
+.featured-project,
+.col-xs-6,
+.col-md-3 {
+  padding-top: 0.8rem;
+}
+.featured-project,
+.col-xs-12,
+.col-md-6 {
+  padding-right: 0;
+}
+h3 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+h3:first-child {
+  color: #399bd1;
+}
+p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.4;
+}
+.featured-project,
+.col-xs-6,
+.col-md-3 li {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.4;
+}
+/*end*/
+
+/*projects section*/
+.container,
+.projects {
+  width: 85rem;
+  margin: 0 auto;
+}
+.image-container-1,
+.image-container-2,
+.image-container-3 {
+  padding-top: 2.9rem;
+}
+.image-container-1 {
+  padding-top: 0;
+}
+.image-container-1,
+.image-container-2,
+.image-container-3 img {
+  opacity: 0.7;
+}
+/*end*/
+
+/*good idea generator section*/
+.container-fluid .idea-generator,
+.text-center {
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
+
+}
+
+h2 strong {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 1.4rem;
+}
+.container .idea-generator,
+.text-center p {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+    @media only screen and (max-width: 768px) {
+      .jumbotron h1 {
+        font-size: 5.7rem;
+      }
+
+
+    }

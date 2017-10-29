@@ -12,16 +12,14 @@
   <link href="Resources/CSS/style.css" type="text/css" rel="stylesheet">
 </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top" style="top: 0px;">
+      <div class="container-fluid">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">Explore</a></li>
+            <li class="active"><a href="index.html">Explore</a></li>
             <li><a href="index.html">Start a project</a></li>
             <li><a href="index.html">About us</a></li>
-        </ul>
-        <div class="navbar-header pull-right">
-          <a class="navbar-brand active"><img src="./Resources/Images/logo.png"></a>
-        </div>
+          </ul>
+          <img class="navbar-brand navbar-right collapse navbar-collapse" src="./Resources/Images/logo.png" alt="Jumpstart Logo" title="Jumpstart Logo">
       </div>
     </nav>
     <div class="jumbotron jumbotron-bike">
@@ -29,11 +27,86 @@
         <div class="row text-center">
           <h1>Get Going</h1>
           <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+          <div class="relative-wrapper">
+            <a class="btn btn-primary btn-lg cta" href="#">Jump in</a>
+          </div>
         </div>
       </div>
     </div>
-
-
+    <section>
+        <div class="container featured-project">
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <h2>Featured project</h2>
+              <div class="image-container">
+                <img src="./Resources/Images/featured-project.png" class="img-responsive" alt="Featured project for this month." title="Featured Project">
+              </div>
+            </div>
+              <div class="col-xs-6 col-md-3">
+                <h3>Project Title</h3>
+                <p>by Person Person</p>
+                <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing â€” her family, friends, pets, and eventual depature from a freezing valley in Northern Italy â€” through beautiful cinematography and narration.
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <h3>Product Categories</h3>
+                <ul>
+                  <li>Art</li>
+                  <li>Books</li>
+                  <li>Crystals</li>
+                  <li>Design</li>
+                  <li>Doodles</li>
+                  <li>Deedlybobs</li>
+                  <li>Farming</li>
+                  <li>Gadgets</li>
+                  <li>Hoverboards</li>
+                  <li>Jams, Jellies, Etc.</li>
+                  <li>Magazines</li>
+                  <li>Plants</li>
+                  <li>Snakes & Snake Equipment</li>
+                  <li>Tables</li>
+                  <li>Ventroliquist Figures</li>
+                  <li>Yoyos</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container projects">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <h2>Projects</h2>
+              <div class="image-container-1">
+                <img src="./Resources/Images/project1.png" class="img-responsive" alt="Picture of a girl in tights" title="The Right Tights">
+              </div>
+              <h3>The Right Tights</h3>
+              <p>by Riley Mae</p>
+              <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="image-container-2">
+                  <img src="./Resources/Images/project2.png" class="img-responsive" alt="Picture of a smart home" title="Peppermint Smart Home">
+                </div>
+                <h3>Peppermint Smart Home</h3>
+                <p>by Brian McDonald</p>
+                <p>Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="image-container-3">
+                  <img src="./Resources/Images/project3.png" class="img-responsive" alt="Picture of a street building" title="American Streetlife">
+                </div>
+                <h3>American Streetlife</h3>
+                <p>by Patrick Wallace</p>
+                <p>I've been traveling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in this 120 page photo album.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container-fluid idea-generator text-center">
+        <h2><strong>Having trouble thinking of an idea?</strong></h2>
+        <p>Inventorsâ€™ block strikes at the worst times. But thatâ€™s all changed with Jumpstartâ€™s Good Idea Generator Lite (GIGLi).</p>
+        <a class="btn btn-primary btn-lg cta" href="#">Learn more</a>
+      </div>
   <script src="js/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <script src="../Resources/js/main.js"></script>
