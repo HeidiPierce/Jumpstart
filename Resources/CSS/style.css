@@ -29,14 +29,22 @@ nav a {
 
 
 /*jumbotron Jumpstart Your Startup*/
-.jumbotron .container {
+.slideshow-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+.single-item {
+  height: 100%;
+}
+.jumbotron .container-fluid {
   max-width: 51.3rem;
   color: white;
   /*height: 44rem;*/
   line-height: 1.2;
   padding-top: 11.85rem;
   text-align: center;
-  /*width: 100%;*/
 }
 .jumbotron {
   color: white;
@@ -168,9 +176,7 @@ p {
 .text-center {
   background-color: #f3f3f3;
   padding: 5.2rem 0;
-
 }
-
 h2 strong {
   color: rgba(0, 0, 0, 0.7);
   font-size: 2.5rem;
@@ -187,10 +193,7 @@ h2 strong {
       .navbar-default .navbar-nav > li >a {
         padding: 0.5rem 1.5rem;
       }
-      .jumbotron .row {
-        height: 40rem;
-      }
-      .jumbotron .container {
+      .jumbotron .container-fluid {
         height: 40rem;
       }
       .jumbotron h1 {
@@ -218,11 +221,21 @@ h2 strong {
       .featured-project h2 {
         padding-bottom: 0.5rem;
       }
+      .featured-project h2,
+      .featured-project h3,
+      .featured-project p {
+        padding-left: 1rem;
+      }
       div.col-xs-6.col-md-3 {
         margin: 0;
       }
       .projects h2 {
-        padding-left: 1.4rem;
+        padding-left: 2rem;
+      }
+      .projects h3,
+      .projects p {
+        max-width: 38rem;
+        padding-left: 0.5rem;
       }
       .container-fluid .idea-generator,
       .text-center {
@@ -231,6 +244,6 @@ h2 strong {
       h2 strong {
         font-size: 2.3rem;
         padding: 0 1.5rem;
-        white-space: nowrap;
+        white-space: wrap;
       }
     }
